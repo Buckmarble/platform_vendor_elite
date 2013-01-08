@@ -20,7 +20,7 @@ include vendor/elite/config/themes_common.mk
 # Common packages 
 PRODUCT_PACKAGES += \
     CMFileManager \
-    Chronus \
+    LockClock \
     Trebuchet \
     SpareParts 
     
