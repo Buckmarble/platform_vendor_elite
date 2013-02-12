@@ -17,6 +17,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # T-mobile heme engine 
 include vendor/elite/config/themes_common.mk
 
+# Common Dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/elite/overlay/dictionaries
+
 # Common packages 
 PRODUCT_PACKAGES += \
     CMFileManager \
@@ -39,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
     vendor/elite/proprietary/common/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
     vendor/elite/proprietary/common/app/GmsCore.apk:system/app/GmsCore.apk \
-    vendor/elite/proprietary/common/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
     vendor/elite/proprietary/common/app/MediaUploader.apk:system/app/MediaUploader.apk \
     vendor/elite/proprietary/common/app/Music2.apk:system/app/Music2.apk \
     vendor/elite/proprietary/common/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
@@ -79,9 +81,7 @@ PRODUCT_COPY_FILES += \
 
 # Common Keyboard w/ Gestures
 PRODUCT_COPY_FILES += \
-    vendor/elite/proprietary/common/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk \
-    vendor/elite/proprietary/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so 
-
+    vendor/elite/proprietary/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so 
 # Common Binary files
 PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/bin/flash_image:system/bin/flash_image \
