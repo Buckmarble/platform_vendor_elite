@@ -7,6 +7,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/elite/overlay/grouper
 # Inherit common product files.
 $(call inherit-product, vendor/elite/config/common.mk)
 
+# Inherit common build.prop overrides
+-include vendor/elite/config/common_versions.mk
+
 # Setup device specific product configuration.
 PRODUCT_NAME := elite_grouper
 PRODUCT_BRAND := asus
