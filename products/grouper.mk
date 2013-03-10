@@ -23,7 +23,7 @@ PRODUCT_MANUFACTURER := asus
 # Copy grouper specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/elite/proprietary/grouper/media/bootanimation.zip:system/media/bootanimation.zip \
-    vendor/elite/proprietary/tuna/app/Gallery2.apk:system/app/Gallery2.apk \
+    vendor/elite/proprietary/grouper/app/Gallery2.apk:system/app/Gallery2.apk \
     vendor/elite/proprietary/tuna/media/audio/notifications/Nexus.mp3:system/media/audio/notifications/Nexus.mp3 \
     vendor/elite/proprietary/common/app/Wallet.apk:system/app/Wallet.apk
 
