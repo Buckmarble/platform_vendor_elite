@@ -17,9 +17,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # T-mobile heme engine 
 include vendor/elite/config/themes_common.mk
 
-# Common Dictionaries
-PRODUCT_PACKAGE_OVERLAYS += vendor/elite/overlay/common/
-
 # Common packages 
 PRODUCT_PACKAGES += \
     CMFileManager \
