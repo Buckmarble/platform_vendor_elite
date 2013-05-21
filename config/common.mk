@@ -26,8 +26,12 @@ PRODUCT_PACKAGES += \
     
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
+    vendor/elite/proprietary/common/app/CalendarGoogle.apk:system/app/CalendarGoogle.apk \
+    vendor/elite/proprietary/common/app/CalendarProvider.apk:system/app/CalendarProvider.apk \
     vendor/elite/proprietary/common/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
     vendor/elite/proprietary/common/app/ConfigUpdater.apk:system/app/ConfigUpdater.apk \
+    vendor/elite/proprietary/common/app/Email.apk:system/app/Email.apk \
+    vendor/elite/proprietary/common/app/Exchange2.apk:system/app/Exchange2.apk \
     vendor/elite/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/elite/proprietary/common/app/Gmail2.apk:system/app/Gmail2.apk \
     vendor/elite/proprietary/common/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
@@ -40,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
     vendor/elite/proprietary/common/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
     vendor/elite/proprietary/common/app/GmsCore.apk:system/app/GmsCore.apk \
+    vendor/elite/proprietary/common/app/Hangouts.apk:system/app/Hangouts.apk \
     vendor/elite/proprietary/common/app/MediaUploader.apk:system/app/MediaUploader.apk \
     vendor/elite/proprietary/common/app/Music2.apk:system/app/Music2.apk \
     vendor/elite/proprietary/common/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
@@ -49,9 +54,9 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/RingsExtended.apk:system/app/RingsExtended.apk \
     vendor/elite/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/elite/proprietary/common/app/Street.apk:system/app/Street.apk \
-    vendor/elite/proprietary/common/app/Talk.apk:system/app/Talk.apk \
     vendor/elite/proprietary/common/app/Talkback.apk:system/app/Talkback.apk \
     vendor/elite/proprietary/common/app/Velvet.apk:system/app/Velvet.apk \
+    vendor/elite/proprietary/common/app/Vending.apk:system/app/Vending.apk \
     vendor/elite/proprietary/common/app/VoiceSearchStub.apk:system/app/VoiceSearchStub.apk \
     vendor/elite/proprietary/common/app/YouTube.apk:system/app/YouTube.apk \
     vendor/elite/proprietary/common/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
