@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/Street.apk:system/app/Street.apk \
     vendor/elite/proprietary/common/app/Talkback.apk:system/app/Talkback.apk \
     vendor/elite/proprietary/common/app/Velvet.apk:system/app/Velvet.apk \
-    vendor/elite/proprietary/common/app/Vending.apk:system/app/Vending.apk \
     vendor/elite/proprietary/common/app/VideoEditor.apk:system/app/VideoEditor.apk \
     vendor/elite/proprietary/common/app/VoiceDialer.apk:system/app/VoiceDialer.apk \
     vendor/elite/proprietary/common/app/VoiceSearchStub.apk:system/app/VoiceSearchStub.apk \
